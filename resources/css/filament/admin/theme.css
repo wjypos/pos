@@ -1,0 +1,39 @@
+@import '../../../../vendor/filament/filament/resources/css/theme.css';
+
+@source '../../../../app/Filament/**/*';
+@source '../../../../resources/views/filament/**/*';
+
+@layer components{
+   .fi-sidebar-nav{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+   }
+   .fi-sidebar-nav{
+    background-color: mediumturquoise  
+   }
+   .fi-sidebar-group-label{
+    text-decoration-color: #f6f6f6;
+   }
+   .fi-sidebar-item-icon{
+    background-color: whitesmoke
+   }   
+   .fi-topbar{
+    background-color :  mediumturquoise     
+   }
+   .fi-main-ctn{
+    background-color: mediumaquamarine    
+   }
+   .fi-modal-header{
+    background-color:aqua   
+   }
+   .fi-modal-window{
+    background-color:aquamarine 
+   }
+   .fi-modal-dropdown-panel{
+   background-color:aquamarine
+   }
+   .fi-dropdown-list {
+    background-color: aqua 
+   }
+           
+}
